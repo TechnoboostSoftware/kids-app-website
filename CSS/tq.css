@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cancel {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.bro {
+    margin-left: 470px;
+    width: 32%;
+}
+h1{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+}
+.btn{
+    background: #7150FF;
+    color: white;
+    padding: 10px 150px;
+    margin-left: 500px;
+}

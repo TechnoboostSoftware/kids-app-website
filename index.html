@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS/index.css">
+        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap"
+            rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#"><img src="IMAGES/logo.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    <!-- <img src="IMAGES/close-circle.svg" > -->
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><img src="IMAGES/list-img.svg" class="listImages"><a href="school.html"
+                                class="nav-link mx-4">School
+                                Districts</a></li>
+                        <li class="nav-item"><img src="IMAGES/list-img.svg" class="listImages"><a href="activity.html"
+                                class="nav-link mx-4">Activity Provider</a>
+                        </li>
+                        <li class="nav-item"><img src="IMAGES/list-img.svg" class="listImages"><a href="parent.html"
+                                class="nav-link mx-4">Parents </a></li>
+                        <li class="nav-item"><img src="IMAGES/list-img.svg" class="listImages"><a href="about-us.html"
+                                class="nav-link mx-4">About us</a></li>
+                    </ul>
+                    <div class="buttonContact text-center"><button class="btn btn-primary Contact ms-3"
+                            data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="headingContact">
+                            <div class="headingContactFirst">
+                                <h1 class="text-center mt-4 mb-5">We would love to hear from you 😊</h1>
+                            </div>
+                            <div>
+                                <img src="IMAGES/cancel.svg" class="cancel" data-bs-dismiss="modal">
+                            </div>
+                        </div>
+                        <div class="row contact">
+                            <div class="col-lg-6 col-md-12 contact-sub1">
+                                <div class="table">
+                                    <h2 class="heading">Contact Us</h2>
+                                    <hr>
+                                    <table>
+                                        <tr>
+                                            <td class="details">Email :</td>
+                                            <td class="details-ans"> Dhavan.atluri@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Phone :</td>
+                                            <td class="details-ans">713-853-7782</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="download">
+                                    <h2 class="heading">Download</h2>
+                                    <hr>
+                                    <div class="popUpDownload">
+                                        <a href="#"><img src="IMAGES/googleplay.svg" class="googleplay2 mb-2 ms-5"></a>
+                                        <a href="#"><img src="IMAGES/apple.svg" class="apple2 mb-2 ms-3"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 contact-sub2">
+                                <form id="login">
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputName">Full
+                                        Name</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="text"
+                                        class="form-control mb-3 mt-1" id="exampleInputEmail"
+                                        placeholder="Enter full name">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputEmail">Email
+                                        Address</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="email"
+                                        class="form-control mb-3 mt-1" id="exampleInputPassword"
+                                        placeholder="Enter email address">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputphone">Mobile
+                                        number</label> <span class="optional"> Optional</span>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="password"
+                                        class="form-control mb-3 mt-1" id="exampleInputPassword1"
+                                        placeholder="Enter mobile number">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000">Message</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="text"
+                                        class="form-control my-1 mb-5 py-4" id="exampleInputPassword1"
+                                        placeholder="Feedbacks are welcome">
+
+                                    <button class="send-button">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN -->
+
+
+        <div class="row main">
+            <div class="col-lg-8 col-md-12">
+                <div class="main-text">
+                    <div class="line mx-4"></div>
+                    <div class="mainHeadingText mb-5">
+                        <div class="main-heading">ParentMaestro</div>
+                        <div class="main-body">
+                            <p>Connects schools to activity providers</p>
+                            <p> Help parents and students achieve success</p>
+                        </div>
+                        <div class="main-footer">
+                            Together we fund a brighter future
+                        </div>
+                        <div class="download mainDownload mt-5">
+                            <a href="#"><img src="IMAGES/googleplay.svg" class="googleplay me-4"></a>
+                            <a href="#"><img src="IMAGES/apple.svg" class="apple"></a>
+                        </div>
+                        <div class="video mt-5 pt-4">
+                            <img src="IMAGES/video.svg" class="me-3 videoImg"><span>How we work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="IMAGES/phone.svg" class="phone ">
+                <div class="download mainDownload1 mt-5">
+                    <a href="#"><img src="IMAGES/googleplay.svg" class="googleplay me-4"></a>
+                    <a href="#"><img src="IMAGES/apple.svg" class="apple"></a>
+                </div>
+                <div class="video1 mt-5 pt-4">
+                    <img src="IMAGES/video.svg" class="me-3 videoImg"><span>How we work</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="introduction my-5">
+            <div class="text-center mb-5 pb-3">
+                <h2 class="heading">Let us introduce</h2>
+                <img src="IMAGES/vector.svg" class="zigzag" >
+            </div>
+            <div class="mobileImages">
+                <div class="iphonesImages">
+                    <div><img src="IMAGES/iPhone 13 Pro 1.svg" class="introductionImages" width="220px"></div>
+                    <div><img src="IMAGES/iPhone 13 Pro 2.svg" class="introductionImages extra" width="220px"></div>
+                    <div><img src="IMAGES/iPhone 13 Pro 3.svg" class="introductionImages" width="220px"></div>
+                    <div><img src="IMAGES/iPhone 13 Pro 4.svg" class="introductionImages extra" width="220px"></div>
+                </div>
+                <div class="behindPics">
+                    <img src="IMAGES/dotted-line 1.svg" class="behind">
+                    <img src="IMAGES/dotted-line 2.svg" class="behind-2">
+                </div>
+            </div>
+
+            <div class="introduce ms-5 px-4 py-2 ">
+                <h3 class="parentmaestro">ParentMaestro</h3>
+                <p class="info">ParentMaestro is a mobile App marketplace for neighbourhood kids' activities.
+                <p class="info">We work directly with school districts to provide free Mobile App to parents.
+                    The School District works with local entrepreneurs to list their services and help reach out
+                    to the parents.</p>
+                <p class="info">Parents can enrol their child into the activity in the App and pay through a
+                    secure payment gateway. As a result, school districts get additional funds to hire more
+                    people to serve parents better.</p>
+            </div>
+
+
+            <div class="mission mb-5">
+                <div class="text-center mission-rect mb-5">
+                    <h2 class="heading">Mission</h2>
+                    <img src="IMAGES/vector.svg" class="zigzag" >
+                </div>
+                <div class="row text-center mission-row">
+                    <div class="col-lg-4 col-md-12">
+                        <img src="IMAGES/baby.svg" data-aos="zoom-out" data-aos-duration="1000" class="babypic">
+                    </div>
+                    <div class="col-lg-8 col-md-12 mission-pad">
+                        <div class="box-mission">
+                            <img src="IMAGES/mission-arrow.svg" class="mission-arrow">
+                            <p>“Our mission is to enhance the partnership between school districts and local kids’
+                                activities providers and to provide parents with a seamless and secure experience in
+                                enrolling their children in extracurricular activities through our free mobile app. By
+                                facilitating this process, we aim to generate additional funding for school districts to
+                                serve better and support children and their families. “
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="allowUpButton">
+                    <button id="myBtn" onclick="topFunction()"><img src="IMAGES/Group 54.svg"></button>
+                </div>
+            </div>
+            <div class="row mb-5 purple-box">
+                <div class="col-lg-7 col-md-12 box-kids">
+                    <div class="ms-2 mb-4">
+                        <p>"Elevate your child's activities game with our app! From sports to arts, we've got you
+                            covered.
+                            <span class="white">Download now and unleash their full potential!"</span>
+                        </p>
+                        <div class="download">
+                            <div class="downloadImage"><a href="#"><img src="IMAGES/googleplay.svg"
+                                        class="googleplay2 mb-2 ms-3"></a></div>
+                            <div class="downloadImage"><a href="#"><img src="IMAGES/apple.svg"
+                                        class="apple2 mb-2 ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 col-md-12">
+                    <img class="iphone" src="Images\iPhone.svg">
+                    <img src="IMAGES/Ellipse 58 (1).svg" class="ellipsePurpleBox">
+                    <img src="IMAGES/Ellipse 58.svg" class="ellipsePurpleBox-1">
+                </div>
+            </div>
+            <div class="heading-kids">
+                <p>Designed to Simplify Parenting</p>
+                <img src="IMAGES/kids.svg" class="kids-img w-100"  data-aos="zoom-in" data-aos-duration="1000"  > 
+            </div>
+
+            <div class="footer" data-aos="fade-up">
+                <div class="row color-footer">
+                    <div class="col-lg-4 col-md-12 footer-height">
+                        <img src="IMAGES/Ellipse.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes">
+                        <img src="IMAGES/Ellipse1.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes1">
+                        <img src="IMAGES/logo.svg" data-aos="fade-up" data-aos-duration="1000" class="footer-logo ms-5">
+                        <div class="social-media-icon ms-5" data-aos="fade-up">
+                            <a href="#"><img src="IMAGES/tweeter.svg" class="social-media me-3"></a>
+                            <a href="#"><img src="IMAGES/facebook.svg" class="social-media me-3"></a>
+                            <a href="#"><img src="IMAGES/insta.svg" class="social-media me-3"></a>
+                            <a href="#"><img src="IMAGES/github.svg" class="social-media me-3"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 footer-list footer-height list-company-help footer-left">
+                        <h5>COMPANY</h5>
+                        <ul class="list-unstyled mb-2">
+                            <li class="mb-3"><a href="">About</a></li>
+                            <li class="mb-3"><a href="">Parent Tab</a></li>
+                            <li class="mb-3"><a href="">Enterprenuer Tab</a></li>
+                            <li class="mb-3"><a href="">School District Tab</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-12 footer-list footer-height list-company-help">
+                        <h5>HELP</h5>
+                        <ul class="list-unstyled mb-3">
+                            <li class="mb-3"><a href="">Customer Support</a></li>
+                            <li class="mb-3"><a href=""> App Support</a></li>
+                            <li class="mb-3"><a href="">Term & Condition</a></li>
+                            <li class="mb-3"><a href="">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-center footer-download col-md-12 footer-list footer-height">
+                        <h5>DOWNLOAD</h5>
+                        <ul class="list-unstyled-download mb-3">
+                            <li class="mb-3"><a href="#"><img src="IMAGES/googleplay.svg" class="mt-3"></a></li>
+                            <li class="mb-3"><a href="#"><img src="IMAGES/apple.svg" class="mt-3"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row color-footer">
+                    <div class="col">
+                        <p class="text-center last">© Copyright 2023, All Rights Reserved </p>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script src="JS/index.js"></script> -->
+
+</html>

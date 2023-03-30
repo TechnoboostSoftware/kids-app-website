@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+}
+.table>:not(caption)>*>*{
+    border-bottom-width:0px ;
+}
+.cancel {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.contact-sub1 {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.heading {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    color: #7150FF;
+}
+
+.details {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-align: right;
+    color: #7150FF;
+}
+
+.details-ans {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.table {
+    margin-bottom: 50px;
+}
+
+#login label {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+.optional{
+    color: grey;
+}
+.form-control {
+    width: 55%;
+}
+
+.contact-sub2 {
+    border-left: 1px solid grey;
+    padding-left: 90px;
+}
+.send-button{
+    width: 330px;
+    background: #7150FF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 8vh;
+    cursor: pointer;
+}
+.send-button:hover{
+    background: #4529c2;
+    color: white;
+}
+.contact{
+    margin-bottom: 20px;
+}
+
+.showoverlay{
+    opacity: 1;
+    z-index: 1;
+}
+.bro {
+    margin-left: 470px;
+    width: 32%;
+}
+h1{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+}
+.btn{
+    background: #7150FF;
+    color: white;
+    padding: 10px 150px;
+    margin-left: 500px;
+}
+.last{
+    margin-bottom: 0px;
+}
