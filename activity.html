@@ -42,11 +42,83 @@
                         <li class="nav-item"><img src="IMAGES/list-img.svg" class="listImages"><a href="about-us.html"
                                 class="nav-link mx-4">About us</a></li>
                     </ul>
-                    <button class="btn btn-primary Contact ms-3" data-bs-toggle="modal"
-                        data-bs-target="#extraLargeModal">Contact Us</button>
+                    <div class="buttonContact text-center"><button class="btn btn-primary Contact ms-3"
+                            data-bs-toggle="modal" data-bs-target="#extraLargeModal">Contact Us</button>
+                    </div>
                 </div>
             </div>
         </nav>
+
+        <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="headingContact">
+                            <div class="headingContactFirst">
+                                <h1 class="text-center mt-4 mb-5">We would love to hear from you 😊</h1>
+                            </div>
+                            <div>
+                                <img src="IMAGES/cancel.svg" class="cancel" data-bs-dismiss="modal">
+                            </div>
+                        </div>
+                        <div class="row popUpContact">
+                            <div class="col-lg-6 col-md-12 contact-sub1">
+                                <div class="table">
+                                    <h2 class="heading">Contact Us</h2>
+                                    <hr>
+                                    <table>
+                                        <tr>
+                                            <td class="details">Email :</td>
+                                            <td class="details-ans"> Dhavan.atluri@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Phone :</td>
+                                            <td class="details-ans">713-853-7782</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="download">
+                                    <h2 class="heading">Download</h2>
+                                    <hr>
+                                    <div class="popUpDownload">
+                                        <a href="#"><img src="IMAGES/googleplay.svg" class="googleplay2 mb-2 ms-5"></a>
+                                        <a href="#"><img src="IMAGES/apple.svg" class="apple2 mb-2 ms-3"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 contact-sub2">
+                                <form id="login">
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputName">Full
+                                        Name</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="text"
+                                        class="form-control mb-3 mt-1" id="exampleInputEmail"
+                                        placeholder="Enter full name">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputEmail">Email
+                                        Address</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="email"
+                                        class="form-control mb-3 mt-1" id="exampleInputPassword"
+                                        placeholder="Enter email address">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputphone">Mobile
+                                        number</label> <span class="optional"> Optional</span>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="password"
+                                        class="form-control mb-3 mt-1" id="exampleInputPassword1"
+                                        placeholder="Enter mobile number">
+
+                                    <label data-aos="fade-right" data-aos-duration="1000">Message</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="text"
+                                        class="form-control my-1 mb-5 py-4" id="exampleInputPassword1"
+                                        placeholder="Feedbacks are welcome">
+
+                                    <button class="send-button">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="activity text-center">
             <h1>Activity Provider</h1>
@@ -55,11 +127,10 @@
         <div class="text-center text-box">
             <div>
                 <h3 class="pb-4 px-4">Activity Providers doesn’t see returns on their investment from Google and
-                    Facebook
-                    marketing.</h3>
+                    Facebook marketing.</h3>
+                <hr>
                 <p>Most of the enrolments usually come through word-of-mouth referrals, which is difficult to control
-                    and
-                    also slows down business growth.</p>
+                    and also slows down business growth.</p>
             </div>
             <img src="IMAGES/man.svg" class="man">
         </div>
@@ -73,14 +144,13 @@
         </div>
 
         <div class=" activity-text mb-4">
-            <div class="row">
+            <div class="row activity-text-row">
                 <div class="col-lg-6 col-sm-12 sub-text w-50">
                     <div>
-                        <p><span class="puruple">ParentMaestro</span> is a free Mobile App marketplace for neighborhood
-                            kids' activities. We work directly
-                            with school districts to provide this valuable resource to parents, while helping local
-                            entrepreneurs like you to reach out to the parents.
-                        </p>
+                        <p><span class="puruple">ParentMaestro</span> is a free Mobile App marketplace for
+                            neighbourhood kids' activities. We work directly with school districts to provide this
+                            valuable resource to parents, while helping local activity providers like you to reach out
+                            to the parents. </p>
                     </div>
                     <div class="purple-text px-3" data-aos="fade-down" data-aos-duration="1000">
                         <img src="IMAGES/home-trend-up.svg">

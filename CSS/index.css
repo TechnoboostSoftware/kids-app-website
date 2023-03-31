@@ -41,7 +41,6 @@
 }
 
 .headingContact h1 {
-
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
@@ -49,6 +48,7 @@
     line-height: 68px;
     text-align: justify;
     color: #7150FF;
+    margin-left: 120px;
 }
 
 .cancel {
@@ -166,7 +166,6 @@
 }
 
 .main-body {
-    border-bottom: 0.5px solid #FFCD1F;
     padding-bottom: 20px;
     margin-right: 250px;
 }
@@ -190,6 +189,8 @@
     display: flex;
     align-items: center;
     color: #FFC600;
+    border-top: 0.5px solid #FFCD1F;
+
 }
 
 
@@ -405,7 +406,7 @@
 }
 
 .ellipes {
-    width: 27%;
+    width: 30%;
     position: absolute;
     top: -1px;
     left: -7px;
@@ -445,6 +446,7 @@
 .footer p {
     padding-top: 60px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .last {
@@ -471,6 +473,7 @@ ul.list-unstyled-download {
     .headingContact h1 {
         font-size: 35px;
         line-height: 50px;
+        margin-left: 0px;
     }
 
     .cancel {
@@ -479,7 +482,7 @@ ul.list-unstyled-download {
         right: 20px;
     }
 
-    .contact {
+    .popUpContact{
         display: flex;
         flex-direction: column-reverse;
         margin: 20px 10px 10px;
@@ -515,9 +518,10 @@ ul.list-unstyled-download {
     }
 
     .details-ans {
-        font-size: 20px;
-        font-size: 19px;
+        font-size: 17px;
         padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
     }
 
     #login label {
@@ -540,12 +544,12 @@ ul.list-unstyled-download {
     }
 
     .send-button {
-        width: 330px;
+        width: 275px;
         background: #7150FF;
         color: white;
         border-radius: 10px;
         border: 1px solid black;
-        height: 8vh;
+        height: 7vh;
         cursor: pointer;
     }
 
@@ -555,8 +559,11 @@ ul.list-unstyled-download {
     }
     .popUpDownload{
         display: flex;
-        margin-top: 30px;
-        margin-left: -50px;
+        margin : 10px
+    }
+    .popUpDownload img{
+        width: 95%;
+        margin-left: -2px !important;
     }
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
@@ -579,11 +586,13 @@ ul.list-unstyled-download {
     .listImages {
         display: block;
     }
-
+    .Contact{
+        margin: 20px;
+    }
     .line {
-        margin: 0px 10px !important;
+        margin: 0px 10px 0px 0px !important;
         width: 10px;
-        height: 180px;
+        height: 190px;
     }
 
     .mainHeadingText {
@@ -599,7 +608,6 @@ ul.list-unstyled-download {
     }
 
     .main-body {
-        border-bottom: 0.5px solid #FFCD1F;
         padding-bottom: 10px;
         margin-right: 0px;
     }
@@ -613,9 +621,13 @@ ul.list-unstyled-download {
 
     .main-footer {
         font-weight: 600;
-        font-size: 45px;
+        font-size: 42px;
         line-height: 45px;
         margin-top: 10px;
+        padding-top: 10px;
+    }
+    .phone {
+        margin-left: 75px;
     }
 
     .mainDownload,
@@ -650,10 +662,6 @@ ul.list-unstyled-download {
     .videoImg {
         width: 25px;
         margin-right: 10px !important;
-    }
-
-    .phone {
-        margin-left: 100px;
     }
 
     .heading {

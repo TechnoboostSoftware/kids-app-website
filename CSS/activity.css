@@ -5,12 +5,12 @@
     font-style: normal;
 }
 
-.navbar{
+.navbar {
     position: fixed;
-    top: 0;
+    top: -5px;
     background: #f1efef9c;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0px 9px 24px rgb(0 0 0 / 25%)
 }
 
@@ -35,6 +35,101 @@
     color: white;
 }
 
+/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.headingContact {
+    display: flex;
+}
+
+.headingContact h1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+    margin-left: 120px;
+}
+
+.cancel {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.contact-sub1 {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.contact-sub1 .heading,
+.download .heading {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    color: #7150FF;
+}
+
+.details {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: right;
+    color: #7150FF;
+}
+
+.details-ans {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+#login label {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+
+.optional {
+    color: grey;
+}
+
+.form-control {
+    width: 55%;
+}
+
+.contact-sub2 {
+    border-left: 1px solid grey;
+    padding-left: 90px;
+}
+
+.send-button {
+    width: 330px;
+    background: #7150FF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #4529c2;
+    color: white;
+}
 .activity {
     margin-top: 60px;
     width: 100%;
@@ -52,8 +147,7 @@
 }
 
 .text-box {
-    border: 1px solid grey;
-    box-shadow: 0 0 10px 2px grey;
+    border: 1px solid rgb(94, 93, 93);
     margin: 40px 280px;
     position: relative;
     margin-right: 230px;
@@ -78,9 +172,11 @@
     color: #7150FF;
     margin: 20px;
     margin-right: 330px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.884);
 }
+.text-box hr{
+    color:  rgba(128, 128, 128, 0.884);
 
+}
 .text-box p {
     font-family: 'Satoshi';
     font-style: normal;
@@ -243,16 +339,120 @@ ul.list-unstyled-download {
 }
 
 @media only screen and (max-width: 991px) {
+    /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+    .modal-body {
+        background: rgb(255 249 250 / 43%);
+    }
+
+    .headingContact {
+        display: flex;
+    }
+    .headingContactFirst{
+        margin: 10px 60px 0px 10px;
+    }
+    .headingContact h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-left: 0px;
+    }
+
+    .cancel {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+
+    .popUpContact{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 10px 10px;
+    }
+
+    table {
+        border-collapse: inherit;
+    }
+
+    #login {
+        padding: 10px 30px;
+    }
+
+    .contact-sub1 {
+        padding-left: 30px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .contact-sub1 .heading,
+    .download .heading {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+
+    }
+
+    .details {
+        font-size: 25px;
+        line-height: 34px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .details-ans {
+        font-size: 17px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    #login label {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .optional {
+        color: grey;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .contact-sub2 {
+        border-left: none;
+        padding-left: 0px;
+    }
+
+    .send-button {
+        width: 275px;
+        background: #7150FF;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid black;
+        height: 7vh;
+        cursor: pointer;
+    }
+
+    .send-button:hover {
+        background: #4529c2;
+        color: white;
+    }
+    .popUpDownload{
+        display: flex;
+        margin : 10px
+    }
+    .popUpDownload img{
+        width: 95%;
+        margin-left: -2px !important;
+    }
+    /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
+
     .navbar-toggler {
         background: #9881ff;
     }
 
     .navbar-toggler-icon {
         color: #7150FF;
-    }
-
-    .contact {
-        margin: 20px 20px 20px 120px !important;
     }
 
     .navbar-nav li {
@@ -265,6 +465,9 @@ ul.list-unstyled-download {
 
     .listImages {
         display: block;
+    }
+    .Contact{
+        margin: 20px;
     }
     .activity {
         margin-top: 60px;
@@ -296,13 +499,15 @@ ul.list-unstyled-download {
 
     .text-box h3 {
         font-weight: 600;
-        font-size: 24px;
+        font-size: 26px;
         line-height: 40px;
         text-align: center;
         color: #7150FF;
         margin: 5px;
     }
-
+    .text-box hr{
+        margin: 0px 50px;
+    }
     .text-box p {
         font-weight: 600;
         font-size: 19px;
@@ -348,10 +553,16 @@ ul.list-unstyled-download {
         padding: 20px 40px;
         width: 100% !important;
     }
-
+    .activity-text-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .activity-text {
+        margin-top: 40px;
+    }
     .activity-text p {
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 17px;
     }
 
     .purple-text {
@@ -368,7 +579,7 @@ ul.list-unstyled-download {
         font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 26px;
         color: #7150FF;
         padding: 8px;

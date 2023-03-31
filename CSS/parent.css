@@ -5,9 +5,9 @@
     font-style: normal;
 }
 
-.navbar{
+.navbar {
     position: fixed;
-    top: 0;
+    top: -5px;
     background: #f1efef9c;
     width: 100%;
     z-index: 2;
@@ -35,6 +35,103 @@
     color: white;
 }
 
+/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.headingContact {
+    display: flex;
+}
+
+.headingContact h1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+    margin-left: 120px;
+}
+
+.cancel {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.contact-sub1 {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.contact-sub1 .heading,
+.download .heading {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    color: #7150FF;
+}
+
+.details {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: right;
+    color: #7150FF;
+}
+
+.details-ans {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+#login label {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+
+.optional {
+    color: grey;
+}
+
+.form-control {
+    width: 55%;
+}
+
+.contact-sub2 {
+    border-left: 1px solid grey;
+    padding-left: 90px;
+}
+
+.send-button {
+    width: 330px;
+    background: #7150FF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #4529c2;
+    color: white;
+}
+
+/*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 .parent {
     margin-top: 60px;
     width: 100%;
@@ -315,16 +412,120 @@ ul.list-unstyled-download {
 }
 
 @media only screen and (max-width: 991px) {
+    /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+    .modal-body {
+        background: rgb(255 249 250 / 43%);
+    }
+
+    .headingContact {
+        display: flex;
+    }
+    .headingContactFirst{
+        margin: 10px 60px 0px 10px;
+    }
+    .headingContact h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin-left: 0px;
+    }
+
+    .cancel {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+
+    .popUpContact{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 10px 10px;
+    }
+
+    table {
+        border-collapse: inherit;
+    }
+
+    #login {
+        padding: 10px 30px;
+    }
+
+    .contact-sub1 {
+        padding-left: 30px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .contact-sub1 .heading,
+    .download .heading {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+
+    }
+
+    .details {
+        font-size: 25px;
+        line-height: 34px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .details-ans {
+        font-size: 17px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    #login label {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .optional {
+        color: grey;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .contact-sub2 {
+        border-left: none;
+        padding-left: 0px;
+    }
+
+    .send-button {
+        width: 275px;
+        background: #7150FF;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid black;
+        height: 7vh;
+        cursor: pointer;
+    }
+
+    .send-button:hover {
+        background: #4529c2;
+        color: white;
+    }
+    .popUpDownload{
+        display: flex;
+        margin : 10px
+    }
+    .popUpDownload img{
+        width: 95%;
+        margin-left: -2px !important;
+    }
+    /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
+
     .navbar-toggler {
         background: #9881ff;
     }
 
     .navbar-toggler-icon {
         color: #7150FF;
-    }
-
-    .contact {
-        margin: 20px 20px 20px 120px !important;
     }
 
     .navbar-nav li {
@@ -337,6 +538,9 @@ ul.list-unstyled-download {
 
     .listImages {
         display: block;
+    }
+    .Contact{
+        margin: 20px;
     }
     .parent {
         margin-top: 60px;
