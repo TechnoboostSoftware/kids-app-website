@@ -260,7 +260,7 @@
 }
 
 .introductionImages {
-    margin: 10px 50px;
+    margin: 10px 35px;
 }
 
 .extra {
@@ -288,20 +288,18 @@
 }
 
 .babypic {
-    width: 70%;
-    margin-left: 100px;
+    width: 75%;
+    margin-top: 50px;
 
 }
-.mission{
+
+.mission {
     margin-bottom: 110px !important;
 }
+
 .mission-rect {
     position: relative;
     margin-bottom: 90px !important;
-}
-
-.mission-row {
-    align-items: center;
 }
 
 .mission-pad {
@@ -323,9 +321,8 @@
     padding: 30px 40px;
     margin-bottom: 0px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 40px;
-
 }
 
 .mission-arrow {
@@ -591,11 +588,14 @@ ul.list-unstyled-download {
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
     .navbar-toggler {
-        background: #9881ff;
+        background: #7050ff88;
+        border-radius: 15px;
+        padding: 6px 8px;
     }
 
-    .navbar-toggler-icon {
+    .navIcon {
         color: #7150FF;
+
     }
 
     .navbar-nav li {
@@ -613,6 +613,7 @@ ul.list-unstyled-download {
     .Contact {
         margin: 20px;
     }
+
     .main {
         padding-top: 110px;
     }
@@ -657,6 +658,7 @@ ul.list-unstyled-download {
 
     .phone {
         margin-left: 12px;
+        padding-left: 20px;
     }
 
     .mainDownload,
@@ -693,6 +695,10 @@ ul.list-unstyled-download {
         margin-right: 10px !important;
     }
 
+    .intro {
+        margin-bottom: 0px !important;
+    }
+
     .heading {
         font-weight: 600;
         font-size: 35px;
@@ -703,6 +709,7 @@ ul.list-unstyled-download {
         display: flex;
         overflow: auto;
         margin-left: 0px;
+        justify-content: center;
     }
 
     .mobileImages {
@@ -710,8 +717,13 @@ ul.list-unstyled-download {
     }
 
     .mobileImages img {
-        margin: 10px 50px 25px;
+        margin: 10px 25px 25px;
         width: 175px;
+    }
+
+    .firstIphoneImg {
+        margin-left: 670px;
+
     }
 
     .extra {
@@ -749,8 +761,9 @@ ul.list-unstyled-download {
     }
 
     .babypic {
-        width: 40%;
+        width: 45%;
         margin-left: 10px;
+        margin-top: 0px;
     }
 
     .mission-rect {
@@ -780,14 +793,14 @@ ul.list-unstyled-download {
     }
 
     .purple-box {
-        margin: 20px;
+        margin: 20px 15px;
         position: relative;
     }
 
     .purple-box p {
-        padding: 15px 5px;
+        padding: 10px 12px;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 17px;
         line-height: 28px;
         color: #FFC600;
     }
@@ -824,7 +837,7 @@ ul.list-unstyled-download {
         position: absolute;
         width: 100%;
         right: 0px;
-        top: 300px;
+        top: 261px;
         border-radius: 21px;
         display: block;
     }
@@ -914,6 +927,7 @@ ul.list-unstyled-download {
     .list-unstyled-download li img {
         width: 90%;
     }
+
     .footer p {
         color: white;
         padding-bottom: 50px;
