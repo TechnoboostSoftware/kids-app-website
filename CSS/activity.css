@@ -234,7 +234,7 @@
 }
 
 .activity-text {
-    margin-top: 100px;
+    margin: 70px 0px !important;
 }
 
 .activity-text p {
@@ -255,9 +255,8 @@
 }
 
 .purple-text {
-    border: 1px solid rgb(231, 229, 229);
+    border: 1px solid rgb(102, 101, 101);
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -472,13 +471,13 @@ ul.list-unstyled-download {
     .activity {
         margin-top: 60px;
         width: 100%;
-        padding: 40px 10px;
+        padding: 30px 10px;
         background: #7150FF;
     }
 
     .activity h1 {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 35px;
         line-height: 109%;
         padding-top: 20px;
     }
@@ -509,7 +508,7 @@ ul.list-unstyled-download {
         margin: 0px 50px;
     }
     .text-box p {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 19px;
         line-height: 35px;
         margin: 20px;
@@ -566,9 +565,8 @@ ul.list-unstyled-download {
     }
 
     .purple-text {
-        border: 1px solid rgb(231, 229, 229);
+        border: 1px solid rgb(102, 101, 101);
         border-radius: 20px;
-        box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
         margin-bottom: 20px;
         display: flex;
         align-items: center;
