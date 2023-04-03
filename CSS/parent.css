@@ -578,6 +578,9 @@ ul.list-unstyled-download {
         font-size: 35px;
         margin-bottom: -10px;
     }
+    .zigzag {
+        width: 145px;
+    }
 
     .benefit p {
         font-weight: 500;
@@ -598,9 +601,6 @@ ul.list-unstyled-download {
         padding-top: 0px;
     }
 
-    .zigzag {
-        width: 145px;
-    }
 
     .title-img {
         width: 18%;

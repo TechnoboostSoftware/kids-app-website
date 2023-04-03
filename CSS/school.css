@@ -252,7 +252,7 @@
     line-height: 54px;
     text-align: center;
     color: #7150FF;
-    /* height: 50vh; */
+    
 }
 
 .footer {
@@ -317,6 +317,7 @@ ul.list-unstyled-download {
 
 
 @media only screen and (max-width: 991px) {
+
     /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
     .modal-body {
         background: rgb(255 249 250 / 43%);
@@ -325,9 +326,11 @@ ul.list-unstyled-download {
     .headingContact {
         display: flex;
     }
-    .headingContactFirst{
+
+    .headingContactFirst {
         margin: 10px 60px 0px 10px;
     }
+
     .headingContact h1 {
         font-size: 35px;
         line-height: 50px;
@@ -340,7 +343,7 @@ ul.list-unstyled-download {
         right: 20px;
     }
 
-    .popUpContact{
+    .popUpContact {
         display: flex;
         flex-direction: column-reverse;
         margin: 20px 10px 10px;
@@ -415,14 +418,17 @@ ul.list-unstyled-download {
         background: #4529c2;
         color: white;
     }
-    .popUpDownload{
+
+    .popUpDownload {
         display: flex;
-        margin : 10px
+        margin: 10px
     }
-    .popUpDownload img{
+
+    .popUpDownload img {
         width: 95%;
         margin-left: -2px !important;
     }
+
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
     .navbar-toggler {
@@ -446,48 +452,68 @@ ul.list-unstyled-download {
     .listImages {
         display: block;
     }
-    .Contact{
+
+    .Contact {
         margin: 20px;
     }
-    
+
     .School-Districts {
         margin-top: 60px;
         width: 100%;
-        padding: 40px 10px;
+        padding: 30px 10px;
         background: #7150FF;
     }
 
     .School-Districts h1 {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 35px;
         line-height: 109%;
         padding-top: 20px;
     }
 
     .heading {
-        font-weight: 600;
         font-size: 35px;
-        line-height: 41px;
+        margin-bottom: -10px;
+    }
+
+    .zigzag {
+        width: 145px;
     }
 
     .benefit p {
-        font-weight: 600;
-        font-size: 24px;
-        padding: 30px 5px !important;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 30px 25px !important;
         line-height: 28px;
     }
-    .benefit-text-img{
+
+    .benefit-text-img {
         margin-left: 88px !important;
     }
+    .benefit-text p{
+        font-weight: 600;
+        font-size: 22px;
+        padding: 30px 25px !important;
+        line-height: 28px;
+    }
+
     .process {
         padding-top: 0px;
     }
+
     .process-row {
         margin: 0px;
-    } 
-    .process-row-first{
+    }
+
+    .process-rect {
+        position: relative;
+        margin-top: -40px !important;
+    }
+
+    .process-row-first {
         padding: 0px;
     }
+
     .sub-title {
         margin-bottom: 35px;
         margin-top: 20px;
@@ -496,16 +522,27 @@ ul.list-unstyled-download {
         border-radius: 10px;
         width: 100%;
     }
+
     .sub-title img {
         margin-left: 0px;
         margin-bottom: 20px;
     }
+
     .sub-title p {
         width: 100%;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 37px;
     }
+
+    .circleImageDiv {
+        margin-bottom: 30px;
+    }
+
+    .circleImage {
+        margin-left: 0px !important;
+    }
+
     .footer {
         margin-top: -13px;
         width: 100%;
@@ -526,7 +563,7 @@ ul.list-unstyled-download {
         width: 100%;
         display: block;
     }
-    
+
     .ellipes {
         display: none;
     }
@@ -550,9 +587,11 @@ ul.list-unstyled-download {
         top: 174px;
         left: 70px;
     }
+
     .social-media {
         width: 40px;
     }
+
     .list-company-help {
         margin-top: 250px;
         width: 50%;
@@ -572,6 +611,6 @@ ul.list-unstyled-download {
     .list-unstyled-download li img {
         width: 90%;
     }
-    
+
 
 }
