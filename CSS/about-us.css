@@ -130,6 +130,7 @@
     background: #4529c2;
     color: white;
 }
+
 /* njdsvjdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
 .about {
     margin-top: 60px;
@@ -194,9 +195,11 @@
     line-height: 35px;
     text-align: justify;
 }
-.core{
+
+.core {
     margin-bottom: 80px;
 }
+
 .core h2 {
     font-family: 'Satoshi';
     font-style: normal;
@@ -207,9 +210,11 @@
     color: #7150FF;
     margin-bottom: 50px;
 }
-.about-text2{
+
+.about-text2 {
     margin-bottom: 40px;
 }
+
 .second {
     font-family: 'Satoshi';
     font-style: normal;
@@ -219,12 +224,40 @@
     color: #7150FF;
     border: 1px solid rgb(231, 229, 229);
     border-radius: 20px;
-    width:370px;
+    width: 370px;
     box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
 }
-.core-margin{
+
+.core-margin {
     margin-left: 230px;
 }
+.team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.team h2 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #7150FF;
+}
+.purple {
+    color: #7150FF;
+    margin-bottom: 0px !important;
+}
+
+.name,
+.post {
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .footer {
     margin-top: -13px;
     width: 100%;
@@ -286,6 +319,7 @@ ul.list-unstyled-download {
 }
 
 @media only screen and (max-width: 991px) {
+
     /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
     .modal-body {
         background: rgb(255 249 250 / 43%);
@@ -294,9 +328,11 @@ ul.list-unstyled-download {
     .headingContact {
         display: flex;
     }
-    .headingContactFirst{
+
+    .headingContactFirst {
         margin: 10px 60px 0px 10px;
     }
+
     .headingContact h1 {
         font-size: 35px;
         line-height: 50px;
@@ -309,7 +345,7 @@ ul.list-unstyled-download {
         right: 20px;
     }
 
-    .popUpContact{
+    .popUpContact {
         display: flex;
         flex-direction: column-reverse;
         margin: 20px 10px 10px;
@@ -384,14 +420,17 @@ ul.list-unstyled-download {
         background: #4529c2;
         color: white;
     }
-    .popUpDownload{
+
+    .popUpDownload {
         display: flex;
-        margin : 10px
+        margin: 10px
     }
-    .popUpDownload img{
+
+    .popUpDownload img {
         width: 95%;
         margin-left: -2px !important;
     }
+
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
     .navbar-toggler {
@@ -413,9 +452,11 @@ ul.list-unstyled-download {
     .listImages {
         display: block;
     }
-    .Contact{
+
+    .Contact {
         margin: 20px;
     }
+
     .about {
         margin-top: 60px;
         width: 100%;
@@ -429,40 +470,45 @@ ul.list-unstyled-download {
         line-height: 109%;
         padding-top: 20px;
     }
+
     .logo-img {
         margin-top: 30px;
         margin-bottom: 20px;
     }
-    
+
     #logo {
         width: 100%;
         padding: 5px 30px;
     }
-    
+
     .about-text {
         margin: 20px 10px;
     }
-    
+
     .about-text1 {
         line-height: 35px;
     }
-    
+
     .writting {
         font-size: 20px;
         line-height: 30px;
     }
-    .core{
+
+    .core {
         margin-bottom: 10px;
     }
+
     .core h2 {
         font-weight: 600;
         font-size: 40px;
         line-height: 109%;
         padding-top: 0px;
     }
-    .about-text2{
+
+    .about-text2 {
         margin-bottom: 20px;
     }
+
     .second {
         font-family: 'Satoshi';
         font-style: normal;
@@ -472,12 +518,15 @@ ul.list-unstyled-download {
         color: #7150FF;
         border: 1px solid rgb(231, 229, 229);
         border-radius: 20px;
-        width:100%;
+        width: 100%;
         box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
     }
-    .core-margin{
+
+    .core-margin {
         margin-left: 0px;
-    }    .footer {
+    }
+
+    .footer {
         margin-top: -13px;
         width: 100%;
         padding: 0px;
@@ -497,7 +546,7 @@ ul.list-unstyled-download {
         width: 100%;
         display: block;
     }
-    
+
     .ellipes {
         display: none;
     }
@@ -521,9 +570,11 @@ ul.list-unstyled-download {
         top: 174px;
         left: 70px;
     }
+
     .social-media {
         width: 40px;
     }
+
     .list-company-help {
         margin-top: 250px;
         width: 50%;
