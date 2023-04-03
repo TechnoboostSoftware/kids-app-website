@@ -434,7 +434,9 @@ ul.list-unstyled-download {
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
     .navbar-toggler {
-        background: #9881ff;
+        background: #7050ff88;
+        border-radius: 15px;
+        padding: 6px 8px;
     }
 
     .navbar-toggler-icon {
