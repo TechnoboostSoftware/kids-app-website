@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi';
+    font-style: normal;
+}
+
+.navbar {
+    position: fixed;
+    top: -5px;
+    background: #f1efef9c;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 9px 24px rgb(0 0 0 / 25%)
+}
+
+.navbar li a {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.listImages {
+    display: none;
+}
+
+.Contact {
+    background: #7150FF;
+    border-radius: 4px;
+    color: white;
+}
+
+.Contact:hover {
+    background: #5d3af8;
+    color: white;
+}
+
+/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.headingContact {
+    display: flex;
+}
+
+.headingContact h1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: justify;
+    color: #7150FF;
+    margin-left: 120px;
+}
+
+.cancel {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.contact-sub1 {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.contact-sub1 .heading,
+.download .heading {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+    color: #7150FF;
+}
+
+.details {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: right;
+    color: #7150FF;
+}
+
+.details-ans {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+#login label {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+
+.optional {
+    color: grey;
+}
+
+.form-control {
+    width: 55%;
+}
+
+.contact-sub2 {
+    border-left: 1px solid grey;
+    padding-left: 90px;
+}
+
+.send-button {
+    width: 330px;
+    background: #7150FF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #4529c2;
+    color: white;
+}
+
+/* njdsvjdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+.headingTerms{
+    margin-top: 60px;
+    width: 100%;
+    padding: 40px 10px;
+    background: #7150FF;
+}
+
+
+.headingTerms  h1 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 109%;
+    color: white;
+}
+
+.termsBody {
+    padding: 20px 40px;
+}
+
+.innerHeading {
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.termsBody p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 149%;
+    margin: 25px 0px;
+    text-align: justify;
+    font-feature-settings: 'ordn' on;
+    color: #1E1E1E;
+}
+.time{
+    margin-bottom: 40px;
+}

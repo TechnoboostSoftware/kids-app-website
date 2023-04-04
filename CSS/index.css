@@ -260,31 +260,32 @@
 }
 
 .introductionImages {
-    margin: 10px 35px;
+    margin: 10px 15px;
+    width: 100%;
+    padding: 1px 70px;
 }
 
-.extra {
-    margin-top: 50px;
+.firstIphoneImg{
+    position: relative;
 }
-
 .behind {
     position: absolute;
     z-index: -1;
-    top: 210px;
-    left: 229px;
-    width: 500px;
+    top: 320px;
+    right: -567px;
+    width: 625px;
 }
 
 .behind-2 {
     position: absolute;
     z-index: -1;
-    top: 355px;
-    right: 150px;
-    width: 347px;
+    top: 470px;
+    right: -185px;
+    width: 480px;
 }
 
 .extra {
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 .babypic {
@@ -710,6 +711,9 @@ ul.list-unstyled-download {
         overflow: auto;
         margin-left: 0px;
         justify-content: center;
+        margin: 10px 15px;
+        width: 100%;
+        padding: 10px;
     }
 
     .mobileImages {
@@ -717,22 +721,29 @@ ul.list-unstyled-download {
     }
 
     .mobileImages img {
-        margin: 10px 25px 25px;
-        width: 175px;
+        margin: 10px 15px 25px;
+        width: 160px;
+        padding: 10px;
     }
 
-    .firstIphoneImg {
-        margin-left: 670px;
-
+    .firstIphoneImg-1 {
+        margin-left: 545px;
     }
 
     .extra {
         margin-top: 0px;
     }
 
-    .behind,
+    .behind {
+        top: 130px;
+        left: 110px;
+        width: 340px !important;
+    }
+    
     .behind-2 {
-        display: none;
+        top: 210px;
+        right: -140px;
+        width: 290px !important;
     }
 
     .zigzag {
@@ -752,7 +763,7 @@ ul.list-unstyled-download {
     }
 
     .info {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 150%;
     }
 
