@@ -531,6 +531,11 @@ ul.list-unstyled-download {
     .core-margin {
         margin-left: 0px;
     }
+    .teamFlex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .footer {
         margin-top: -13px;
