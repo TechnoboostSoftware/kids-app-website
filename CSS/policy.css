@@ -379,6 +379,14 @@ ul.list-unstyled-download {
         margin: 20px;
     }
 
+    .innerHeading {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    
+    .policyBody p {
+        font-size: 18px;
+    }
     .footer {
         margin-top: -13px;
         width: 100%;

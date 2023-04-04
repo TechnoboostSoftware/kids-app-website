@@ -239,7 +239,7 @@ ul.list-unstyled-download {
     list-style: none;
 }
 
-F @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
 
     /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
     .modal-body {
