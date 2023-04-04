@@ -260,9 +260,10 @@
 }
 
 .introductionImages {
-    margin: 10px 15px;
+    /* margin: 10px 15px;
     width: 100%;
-    padding: 1px 70px;
+    padding: 1px 70px; */
+    margin: 10px 35px;
 }
 
 .firstIphoneImg{
@@ -271,19 +272,19 @@
 .behind {
     position: absolute;
     z-index: -1;
-    top: 320px;
-    right: -567px;
-    width: 625px;
+    top: 225px;
+    left: 229px;
+    width: 500px;
 }
 
 .behind-2 {
     position: absolute;
     z-index: -1;
-    top: 470px;
-    right: -185px;
-    width: 480px;
-}
+    top: 355px;
+    left: 55px;
+    width: 475px;
 
+}
 .extra {
     margin-top: 120px;
 }
