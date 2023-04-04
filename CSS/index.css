@@ -267,9 +267,10 @@
     margin: 10px 35px;
 }
 
-.firstIphoneImg{
+.firstIphoneImg {
     position: relative;
 }
+
 .behind {
     position: absolute;
     z-index: -1;
@@ -286,6 +287,7 @@
     width: 475px;
 
 }
+
 .extra {
     margin-top: 120px;
 }
@@ -743,7 +745,7 @@ ul.list-unstyled-download {
         left: 128px;
         width: 380px !important;
     }
-    
+
     .behind-2 {
         top: 289px;
         right: -140px;
@@ -852,7 +854,7 @@ ul.list-unstyled-download {
         position: absolute;
         width: 100%;
         right: 0px;
-        top: 261px;
+        top: 284px;
         border-radius: 21px;
         display: block;
     }
@@ -900,8 +902,8 @@ ul.list-unstyled-download {
     }
 
     .footer-logo {
-        width: 85%;
-        margin-left: 80px !important;
+        width: 75%;
+        margin-left: 85px !important;
     }
 
     .footer ul a {
@@ -913,10 +915,10 @@ ul.list-unstyled-download {
     .social-media-icon {
         width: 185px;
         display: flex;
-        text-align: center;
         position: relative;
-        top: 174px;
-        left: 70px;
+        top: 153px;
+        align-items: center;
+        left: 40px;
     }
 
     .social-media {
