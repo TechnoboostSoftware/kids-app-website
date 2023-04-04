@@ -166,12 +166,12 @@
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 26px;
     line-height: 35px;
     text-align: center;
     color: #7150FF;
     margin: 20px;
-    margin-right: 330px;
+    margin-right: 316px;
 }
 .text-box hr{
     color:  rgba(128, 128, 128, 0.884);
@@ -184,6 +184,7 @@
     font-size: 22px;
     line-height: 35px;
     margin: 20px;
+    margin-bottom: 45px;
     margin-right: 350px;
     text-align: center;
 }

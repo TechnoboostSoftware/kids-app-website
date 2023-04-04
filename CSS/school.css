@@ -241,7 +241,6 @@
 
 .benefit-text img {
     margin-top: 20px;
-    width: 110px;
 }
 
 .benefit-text p {
@@ -252,7 +251,7 @@
     line-height: 54px;
     text-align: center;
     color: #7150FF;
-    
+
 }
 
 .footer {
@@ -490,7 +489,8 @@ ul.list-unstyled-download {
     .benefit-text-img {
         margin-left: 88px !important;
     }
-    .benefit-text p{
+
+    .benefit-text p {
         font-weight: 600;
         font-size: 22px;
         padding: 30px 25px !important;
@@ -537,6 +537,8 @@ ul.list-unstyled-download {
 
     .circleImageDiv {
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .circleImage {
