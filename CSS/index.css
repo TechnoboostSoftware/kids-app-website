@@ -307,6 +307,8 @@
 
 .mission-pad {
     padding-right: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .box-mission {
@@ -738,14 +740,14 @@ ul.list-unstyled-download {
 
     .behind {
         top: 130px;
-        left: 110px;
-        width: 340px !important;
+        left: 128px;
+        width: 380px !important;
     }
     
     .behind-2 {
-        top: 210px;
+        top: 289px;
         right: -140px;
-        width: 290px !important;
+        width: 320px !important;
     }
 
     .zigzag {
