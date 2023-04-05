@@ -231,10 +231,10 @@
 .core-margin {
     margin-left: 230px;
 }
-.team{
 
-}
-.teamFlex{
+.team {}
+
+.teamFlex {
     display: flex;
     text-align: center;
     align-items: center;
@@ -249,13 +249,17 @@
     line-height: 61px;
     color: #7150FF;
 }
+
 .purple {
     color: #7150FF;
     margin-bottom: 0px !important;
 }
-.teamMembers-1,.teamMembers-2{
+
+.teamMembers-1,
+.teamMembers-2 {
     margin: 40px 0px;
 }
+
 .name,
 .post {
     font-weight: 700;
@@ -269,6 +273,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 33px;
 }
 
 .ellipes {
@@ -280,6 +286,10 @@
 
 .ellipes1 {
     display: none;
+}
+
+.color-footer {
+    width: 100%;
 }
 
 .footer-logo {
@@ -297,7 +307,7 @@
 
 .social-media-icon {
     position: relative;
-    top: 150px;
+    top: 180px;
     left: 35px;
 }
 
@@ -312,6 +322,7 @@
 .footer p {
     padding-top: 60px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .last {
@@ -531,7 +542,8 @@ ul.list-unstyled-download {
     .core-margin {
         margin-left: 0px;
     }
-    .teamFlex{
+
+    .teamFlex {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -543,11 +555,6 @@ ul.list-unstyled-download {
         padding: 0px;
         position: relative;
         box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
-    }
-
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
     }
 
     .ellipes1 {
@@ -563,8 +570,8 @@ ul.list-unstyled-download {
     }
 
     .footer-logo {
-        width: 85%;
-        margin-left: 80px !important;
+        width: 75%;
+        margin-left: 85px !important;
     }
 
     .footer ul a {
@@ -576,10 +583,10 @@ ul.list-unstyled-download {
     .social-media-icon {
         width: 185px;
         display: flex;
-        text-align: center;
         position: relative;
-        top: 174px;
-        left: 70px;
+        top: 145px;
+        align-items: center;
+        left: 40px;
     }
 
     .social-media {
@@ -604,5 +611,10 @@ ul.list-unstyled-download {
 
     .list-unstyled-download li img {
         width: 90%;
+    }
+
+    .footer p {
+        color: white;
+        padding-bottom: 50px;
     }
 }

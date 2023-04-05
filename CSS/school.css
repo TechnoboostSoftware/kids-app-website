@@ -261,6 +261,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 33px;
 }
 
 .ellipes {
@@ -272,6 +274,10 @@
 
 .ellipes1 {
     display: none;
+}
+
+.color-footer {
+    width: 100%;
 }
 
 .footer-logo {
@@ -289,7 +295,7 @@
 
 .social-media-icon {
     position: relative;
-    top: 150px;
+    top: 180px;
     left: 35px;
 }
 
@@ -304,6 +310,7 @@
 .footer p {
     padding-top: 60px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .last {
@@ -553,11 +560,6 @@ ul.list-unstyled-download {
         box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
     }
 
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
-    }
-
     .ellipes1 {
         position: absolute;
         top: -1px;
@@ -571,8 +573,8 @@ ul.list-unstyled-download {
     }
 
     .footer-logo {
-        width: 85%;
-        margin-left: 80px !important;
+        width: 75%;
+        margin-left: 85px !important;
     }
 
     .footer ul a {
@@ -584,10 +586,10 @@ ul.list-unstyled-download {
     .social-media-icon {
         width: 185px;
         display: flex;
-        text-align: center;
         position: relative;
-        top: 174px;
-        left: 70px;
+        top: 145px;
+        align-items: center;
+        left: 40px;
     }
 
     .social-media {
@@ -614,5 +616,8 @@ ul.list-unstyled-download {
         width: 90%;
     }
 
-
+    .footer p {
+        color: white;
+        padding-bottom: 50px;
+    }
 }

@@ -130,6 +130,7 @@
     background: #4529c2;
     color: white;
 }
+
 .activity {
     margin-top: 60px;
     width: 100%;
@@ -173,10 +174,12 @@
     margin: 20px;
     margin-right: 316px;
 }
-.text-box hr{
-    color:  rgba(128, 128, 128, 0.884);
+
+.text-box hr {
+    color: rgba(128, 128, 128, 0.884);
 
 }
+
 .text-box p {
     font-family: 'Satoshi';
     font-style: normal;
@@ -278,6 +281,7 @@
     padding-top: 90px;
     align-items: center;
 }
+
 .footer {
     margin-top: -13px;
     width: 100%;
@@ -285,6 +289,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 33px;
 }
 
 .ellipes {
@@ -296,6 +302,10 @@
 
 .ellipes1 {
     display: none;
+}
+
+.color-footer {
+    width: 100%;
 }
 
 .footer-logo {
@@ -313,7 +323,7 @@
 
 .social-media-icon {
     position: relative;
-    top: 150px;
+    top: 180px;
     left: 35px;
 }
 
@@ -328,6 +338,7 @@
 .footer p {
     padding-top: 60px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .last {
@@ -339,6 +350,7 @@ ul.list-unstyled-download {
 }
 
 @media only screen and (max-width: 991px) {
+
     /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
     .modal-body {
         background: rgb(255 249 250 / 43%);
@@ -347,9 +359,11 @@ ul.list-unstyled-download {
     .headingContact {
         display: flex;
     }
-    .headingContactFirst{
+
+    .headingContactFirst {
         margin: 10px 60px 0px 10px;
     }
+
     .headingContact h1 {
         font-size: 35px;
         line-height: 50px;
@@ -362,7 +376,7 @@ ul.list-unstyled-download {
         right: 20px;
     }
 
-    .popUpContact{
+    .popUpContact {
         display: flex;
         flex-direction: column-reverse;
         margin: 20px 10px 10px;
@@ -437,14 +451,17 @@ ul.list-unstyled-download {
         background: #4529c2;
         color: white;
     }
-    .popUpDownload{
+
+    .popUpDownload {
         display: flex;
-        margin : 10px
+        margin: 10px
     }
-    .popUpDownload img{
+
+    .popUpDownload img {
         width: 95%;
         margin-left: -2px !important;
     }
+
     /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
 
     .navbar-toggler {
@@ -452,7 +469,7 @@ ul.list-unstyled-download {
         border-radius: 15px;
         padding: 6px 8px;
     }
-    
+
     .navbar-toggler-icon {
         color: #7150FF;
     }
@@ -468,9 +485,11 @@ ul.list-unstyled-download {
     .listImages {
         display: block;
     }
-    .Contact{
+
+    .Contact {
         margin: 20px;
     }
+
     .activity {
         margin-top: 60px;
         width: 100%;
@@ -507,9 +526,11 @@ ul.list-unstyled-download {
         color: #7150FF;
         margin: 5px;
     }
-    .text-box hr{
+
+    .text-box hr {
         margin: 0px 50px;
     }
+
     .text-box p {
         font-weight: 400;
         font-size: 19px;
@@ -555,13 +576,16 @@ ul.list-unstyled-download {
         padding: 20px 40px;
         width: 100% !important;
     }
-    .activity-text-row{
+
+    .activity-text-row {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .activity-text {
         margin-top: 40px;
     }
+
     .activity-text p {
         font-weight: 500;
         font-size: 17px;
@@ -585,11 +609,13 @@ ul.list-unstyled-download {
         color: #7150FF;
         padding: 8px;
     }
+
     .MacBook {
         padding-top: 10px;
         align-items: center;
         width: 200% !important;
     }
+
     .footer {
         margin-top: -13px;
         width: 100%;
@@ -598,11 +624,6 @@ ul.list-unstyled-download {
         box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
     }
 
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
-    }
-
     .ellipes1 {
         position: absolute;
         top: -1px;
@@ -610,14 +631,14 @@ ul.list-unstyled-download {
         width: 100%;
         display: block;
     }
-    
+
     .ellipes {
         display: none;
     }
 
     .footer-logo {
-        width: 85%;
-        margin-left: 80px !important;
+        width: 75%;
+        margin-left: 85px !important;
     }
 
     .footer ul a {
@@ -629,14 +650,16 @@ ul.list-unstyled-download {
     .social-media-icon {
         width: 185px;
         display: flex;
-        text-align: center;
         position: relative;
-        top: 174px;
-        left: 70px;
+        top: 145px;
+        align-items: center;
+        left: 40px;
     }
+
     .social-media {
         width: 40px;
     }
+
     .list-company-help {
         margin-top: 250px;
         width: 50%;
@@ -655,70 +678,10 @@ ul.list-unstyled-download {
 
     .list-unstyled-download li img {
         width: 90%;
-    }    .footer {
-        margin-top: -13px;
-        width: 100%;
-        padding: 0px;
-        position: relative;
-        box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
     }
 
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
-    }
-
-    .ellipes1 {
-        position: absolute;
-        top: -1px;
-        left: 0px;
-        width: 100%;
-        display: block;
-    }
-    
-    .ellipes {
-        display: none;
-    }
-
-    .footer-logo {
-        width: 85%;
-        margin-left: 80px !important;
-    }
-
-    .footer ul a {
-        text-decoration: none;
+    .footer p {
         color: white;
-        font-size: 15px;
-    }
-
-    .social-media-icon {
-        width: 185px;
-        display: flex;
-        text-align: center;
-        position: relative;
-        top: 174px;
-        left: 70px;
-    }
-    .social-media {
-        width: 40px;
-    }
-    .list-company-help {
-        margin-top: 250px;
-        width: 50%;
-        padding-left: 35px;
-    }
-
-    .footer-download h5 {
-        color: white;
-        margin: 20px 0px;
-    }
-
-    ul.list-unstyled-download {
-        display: flex;
-        list-style: none;
-    }
-
-    .list-unstyled-download li img {
-        width: 90%;
+        padding-bottom: 50px;
     }
 }

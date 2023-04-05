@@ -419,7 +419,7 @@
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
     border-top-right-radius: 25px ;
-    border-top-left-radius: 25px ;
+    border-top-left-radius: 33px ;
 }
 
 .ellipes {
@@ -901,14 +901,14 @@ ul.list-unstyled-download {
         font-size: 15px;
     }
 
-    .social-media-icon {
-        width: 185px;
-        display: flex;
-        position: relative;
-        top: 153px;
-        align-items: center;
-        left: 60px;
-    }
+.social-media-icon {
+    width: 185px;
+    display: flex;
+    position: relative;
+    top: 145px;
+    align-items: center;
+    left: 40px;
+}
 
     .social-media {
         width: 40px;

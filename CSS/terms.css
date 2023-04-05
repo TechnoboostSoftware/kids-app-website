@@ -179,7 +179,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
-    border-radius: 60px 60px 0px 0px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 33px;
 }
 
 .ellipes {
@@ -194,7 +195,6 @@
 }
 
 .color-footer {
-    background-color: #7150FF;
     width: 100%;
 }
 
@@ -388,11 +388,6 @@ ul.list-unstyled-download {
         box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
     }
 
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
-    }
-
     .ellipes1 {
         position: absolute;
         top: -1px;
@@ -420,7 +415,7 @@ ul.list-unstyled-download {
         width: 185px;
         display: flex;
         position: relative;
-        top: 153px;
+        top: 145px;
         align-items: center;
         left: 40px;
     }
