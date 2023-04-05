@@ -161,7 +161,7 @@
     border: 1px solid rgb(231, 229, 229);
     border-radius: 20px;
     box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
-    margin: 20px 370px;
+    /* margin: 20px 370px; */
 }
 
 .about-text h3 {
@@ -504,7 +504,8 @@ ul.list-unstyled-download {
     }
 
     .about-text {
-        margin: 20px 10px;
+        /* margin: 20px 10px; */
+        box-shadow: unset
     }
 
     .about-text1 {
