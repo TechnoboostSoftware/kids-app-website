@@ -419,7 +419,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
-    border-radius: 60px 60px 0px 0px;
+    border-top-right-radius: 25px ;
+    border-top-left-radius: 25px ;
 }
 
 .ellipes {
@@ -434,7 +435,6 @@
 }
 
 .color-footer {
-    background-color: #7150FF;
     width: 100%;
 }
 
@@ -650,14 +650,14 @@ ul.list-unstyled-download {
 
     .main-body p {
         font-weight: 500;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 25px;
         margin: 0px;
     }
 
     .main-footer {
         font-weight: 600;
-        font-size: 42px;
+        font-size: 38px;
         line-height: 45px;
         margin-top: 10px;
         padding-top: 10px;
@@ -676,7 +676,7 @@ ul.list-unstyled-download {
     .mainDownload1 {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
 
     .googleplay {
@@ -686,7 +686,7 @@ ul.list-unstyled-download {
     .video1 {
         display: flex;
         text-align: center;
-        margin-left: 132px;
+        margin-left: 0px;
         margin-bottom: 50px;
         font-size: 18px;
         margin-top: 10px !important;
@@ -765,7 +765,7 @@ ul.list-unstyled-download {
 
     .parentmaestro {
         font-size: 35px;
-        padding-left: 45px;
+        padding-left: 0px;
     }
 
     .info {
@@ -882,11 +882,6 @@ ul.list-unstyled-download {
         padding: 0px;
         position: relative;
         box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
-    }
-
-    .color-footer {
-        background-color: #7150FF;
-        width: 100%;
     }
 
     .ellipes1 {
