@@ -145,12 +145,8 @@
 }
 
 .line {
-    width: 23px;
-    height: 262px;
-    background: #FFCD1F;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
-    margin-top: 83px;
+    padding-left: 20px;
+    border-left: 10px solid #FFCD1F;
 }
 
 .main-heading {
@@ -208,7 +204,10 @@
     display: flex;
     align-items: center;
 }
-
+.mainDownload{
+    margin-left: 35px;
+    margin-top: 40px;
+}
 .video1,
 .mainDownload1 {
     display: none;
@@ -625,11 +624,6 @@ ul.list-unstyled-download {
         padding-top: 110px;
     }
 
-    .line {
-        margin: 0px 10px 0px 0px !important;
-        width: 10px;
-        height: 190px;
-    }
 
     .mainHeadingText {
         padding-right: 15px;
@@ -913,7 +907,7 @@ ul.list-unstyled-download {
         position: relative;
         top: 153px;
         align-items: center;
-        left: 40px;
+        left: 60px;
     }
 
     .social-media {
