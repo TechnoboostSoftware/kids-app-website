@@ -758,14 +758,14 @@ ul.list-unstyled-download {
 
     .behind {
         top: 130px;
-        left: 128px;
-        width: 380px !important;
+        left: 170px;
+        /* width: 380px !important; */
     }
 
     .behind-2 {
         top: 289px;
         right: -140px;
-        width: 320px !important;
+        /* width: 320px !important; */
     }
 
     .zigzag {
