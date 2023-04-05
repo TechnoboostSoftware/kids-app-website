@@ -252,19 +252,19 @@
 }
 
 .left2 {
-    width: 25%;
-    margin-top: 145px;
-    margin-right: 20px;
+    /* width: 25%; */
+    /* margin-top: 145px; */
+    margin-right: 10px;
 }
 
 .right2 {
-    width: 25%;
-    margin-top: 145px;
-    margin-left: 20px;
+    /* width: 25%; */
+    /* margin-top: 145px; */
+    margin-left: 10px;
 }
 
 .middle2 {
-    width: 35%;
+    /* width: 35%; */
 }
 
 .scrollingImg {
@@ -275,6 +275,8 @@
     border: 1px solid grey;
     width: 85%;
     border-radius: 20px;
+    float: right;
+    margin-right: 20px;
 }
 
 .seamless {
@@ -687,7 +689,7 @@ ul.list-unstyled-download {
     }
 
     .scrollingImg img {
-        width: 180px;
+        /* width: 180px; */
         margin: 0px 40px;
     }
 

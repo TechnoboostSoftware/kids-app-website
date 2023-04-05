@@ -245,7 +245,7 @@
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 60px;
     line-height: 61px;
     color: #7150FF;
 }
@@ -259,9 +259,14 @@
 .teamMembers-2 {
     margin: 40px 0px;
 }
+.teamMembers-1 .post,
+.teamMembers-2 .post{
+    font-weight: 500;
+    font-size: 30px;
+}
 
-.name,
-.post {
+.name
+ {
     font-weight: 700;
     font-size: 30px;
 }
