@@ -873,5 +873,9 @@ ul.list-unstyled-download {
         color: white;
         padding-bottom: 50px;
     }
+    .box-features{
+        margin-right:0px;
+        float: unset;
+    }
 
 }
