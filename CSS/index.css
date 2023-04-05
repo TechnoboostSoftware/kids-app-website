@@ -235,6 +235,7 @@
 .iphonesImages {
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 
 .introduce {
@@ -361,11 +362,12 @@
 }
 
 .purple-box p {
-    padding: 20px;
+    /* padding: 20px; */
     font-weight: 700;
     font-size: 29px;
-    line-height: 50px;
+    line-height: 35px;
     color: #FFC600;
+    margin-bottom: 10px;
 }
 
 .white {
@@ -480,6 +482,14 @@
 ul.list-unstyled-download {
     list-style: none;
 }
+
+.backgroundImage{
+    background-image: url('../IMAGES/Ellipse 58 (1).svg');
+    background-size: cover;
+    border-radius: 21px;
+    display: flex;
+}
+/* ################# Mobile view  css  */
 
 @media only screen and (max-width: 991px) {
 
@@ -734,7 +744,7 @@ ul.list-unstyled-download {
 
     .mobileImages img {
         margin: 10px 15px 25px;
-        width: 200px;
+        /* width: 200px; */
         padding: 10px;
     }
 
@@ -784,7 +794,7 @@ ul.list-unstyled-download {
     }
 
     .babypic {
-        width: 50%;
+        /* width: 50%; */
         margin-left: 10px;
         margin-top: 0px;
     }
@@ -860,7 +870,8 @@ ul.list-unstyled-download {
         position: absolute;
         width: 100%;
         right: 0px;
-        top: 260px;
+        /* top: 260px; */
+        bottom: 0px;
         border-radius: 21px;
         display: block;
     }
@@ -949,5 +960,8 @@ ul.list-unstyled-download {
     .footer p {
         color: white;
         padding-bottom: 50px;
+    }
+    .backgroundImage{
+        background-image: unset;
     }
 }
