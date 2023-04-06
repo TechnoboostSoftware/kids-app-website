@@ -161,7 +161,7 @@
 .about-text {
     border: 1px solid rgb(231, 229, 229);
     border-radius: 20px;
-    margin: 0px 383px 50px !important;
+    width: 550px;
 }
 
 .about-text h3 {
@@ -293,6 +293,12 @@
 
 .color-footer {
     width: 100%;
+}
+
+
+.color-footer-2 {
+    width: 100%;
+    margin-top: 85px;
 }
 
 .footer-logo {
@@ -502,7 +508,8 @@ ul.list-unstyled-download {
 
     .about-text {
         margin: 20px 10px !important;
-        box-shadow: unset
+        box-shadow: unset;
+        width: 550px;
     }
 
     .about-text p.about-text1 {
@@ -550,7 +557,10 @@ ul.list-unstyled-download {
     .core-margin {
         margin-left: 0px;
     }
-
+    .team{
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
     .teamFlex {
         display: flex;
         flex-direction: column;
@@ -624,6 +634,10 @@ ul.list-unstyled-download {
 
     .list-unstyled-download li img {
         width: 90%;
+    }
+
+    .color-footer-2 {
+        margin-top: 0px;
     }
 
     .footer p {

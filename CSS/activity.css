@@ -35,7 +35,8 @@
     color: white;
 }
 
-/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh *//* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+/* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 .headingContact {
     display: flex;
 }
@@ -108,7 +109,8 @@
 }
 
 .form-control {
-    width: 325px;}
+    width: 325px;
+}
 
 .contact-sub2 {
     border-left: 1px solid grey;
@@ -310,6 +312,12 @@
     width: 100%;
 }
 
+
+.color-footer-2 {
+    width: 100%;
+    margin-top: 85px;
+}
+
 .footer-logo {
     width: 340px;
     position: absolute;
@@ -338,7 +346,7 @@
 }
 
 .footer p {
-    padding: 20px 0px 20px 28px; 
+    padding: 20px 0px 20px 28px;
     color: white;
 }
 
@@ -680,6 +688,10 @@ ul.list-unstyled-download {
 
     .list-unstyled-download li img {
         width: 90%;
+    }
+
+    .color-footer-2 {
+        margin-top: 0px;
     }
 
     .footer p {

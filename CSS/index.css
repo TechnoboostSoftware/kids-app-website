@@ -108,7 +108,8 @@
 }
 
 .form-control {
-    width: 325px;}
+    width: 325px;
+}
 
 .contact-sub2 {
     border-left: 1px solid grey;
@@ -143,10 +144,12 @@
     display: flex;
     margin-top: 20px;
 }
-.line{
+
+.line {
     border: none;
     padding-left: 0px;
 }
+
 .innerline {
     padding-left: 20px;
     border-left: 10px solid #FFCD1F;
@@ -207,10 +210,12 @@
     display: flex;
     align-items: center;
 }
-.mainDownload{
+
+.mainDownload {
     margin-left: 35px;
     margin-top: 40px;
 }
+
 .video1,
 .mainDownload1 {
     display: none;
@@ -421,8 +426,8 @@
     position: relative;
     background-color: #7150FF;
     box-shadow: -8px -20px 31px rgba(0, 0, 0, 0.25);
-    border-top-right-radius: 25px ;
-    border-top-left-radius: 33px ;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 33px;
 }
 
 .ellipes {
@@ -438,6 +443,12 @@
 
 .color-footer {
     width: 100%;
+}
+
+
+.color-footer-2 {
+    width: 100%;
+    margin-top: 85px;
 }
 
 .footer-logo {
@@ -468,7 +479,7 @@
 }
 
 .footer p {
-    padding: 20px 0px 20px 28px; 
+    padding: 20px 0px 20px 28px;
     color: white;
 }
 
@@ -480,12 +491,13 @@ ul.list-unstyled-download {
     list-style: none;
 }
 
-.backgroundImage{
+.backgroundImage {
     background-image: url('../IMAGES/Ellipse 58 (1).svg');
     background-size: cover;
     border-radius: 15px;
     display: flex;
 }
+
 /* ################# Mobile view  css  */
 
 @media only screen and (max-width: 991px) {
@@ -669,14 +681,17 @@ ul.list-unstyled-download {
         margin-top: 10px;
         padding-top: 10px;
     }
+
     .line {
         padding-left: 20px;
         border-left: 10px solid #FFCD1F;
     }
+
     .innerline {
         padding-left: 0px;
-        border:none;
+        border: none;
     }
+
     .phone {
         margin-left: 12px;
         padding-left: 20px;
@@ -826,9 +841,11 @@ ul.list-unstyled-download {
         margin: 20px 15px;
         position: relative;
     }
-    .purple_boxDiv{
+
+    .purple_boxDiv {
         padding: 10px !important;
     }
+
     .purple-box p {
         padding: 10px 12px;
         font-weight: 500;
@@ -923,14 +940,14 @@ ul.list-unstyled-download {
         font-size: 15px;
     }
 
-.social-media-icon {
-    width: 185px;
-    display: flex;
-    position: relative;
-    top: 145px;
-    align-items: center;
-    left: 40px;
-}
+    .social-media-icon {
+        width: 185px;
+        display: flex;
+        position: relative;
+        top: 145px;
+        align-items: center;
+        left: 40px;
+    }
 
     .social-media {
         width: 40px;
@@ -956,11 +973,16 @@ ul.list-unstyled-download {
         width: 90%;
     }
 
+    .color-footer-2 {
+        margin-top: 0px;
+    }
+
     .footer p {
         color: white;
         padding-bottom: 40px;
     }
-    .backgroundImage{
+
+    .backgroundImage {
         background-image: unset;
     }
 }
