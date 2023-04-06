@@ -80,7 +80,7 @@
     font-weight: 500;
     font-size: 25px;
     line-height: 34px;
-    text-align: right;
+    text-align: left;
     color: #7150FF;
 }
 
@@ -89,8 +89,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    padding-left: 25px;
-    padding-bottom: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 #login label {
@@ -264,9 +264,6 @@
 }
 
 .introductionImages {
-    /* margin: 10px 15px;
-    width: 100%;
-    padding: 1px 70px; */
     margin: 10px 35px;
 }
 
@@ -320,8 +317,8 @@
     position: relative;
     background-color: #7150FF;
     color: white;
-    border: 1px solid rgb(216, 215, 215);
     border-radius: 20px;
+    border: 1px solid rgba(79, 81, 85, 0.35);
     box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(50px);
 }
@@ -378,6 +375,7 @@
     position: relative;
     width: 100%;
     padding-top: 25px;
+    padding-left: 20px;
     z-index: 1;
 }
 
@@ -486,7 +484,7 @@ ul.list-unstyled-download {
 .backgroundImage{
     background-image: url('../IMAGES/Ellipse 58 (1).svg');
     background-size: cover;
-    border-radius: 21px;
+    border-radius: 15px;
     display: flex;
 }
 /* ################# Mobile view  css  */
@@ -808,7 +806,6 @@ ul.list-unstyled-download {
     }
 
     .box-mission {
-        box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         margin-bottom: 30px;
     }
@@ -829,11 +826,13 @@ ul.list-unstyled-download {
         margin: 20px 15px;
         position: relative;
     }
-
+    .purple_boxDiv{
+        padding: 10px !important;
+    }
     .purple-box p {
         padding: 10px 12px;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 28px;
         color: #FFC600;
     }
@@ -859,11 +858,11 @@ ul.list-unstyled-download {
     }
 
     .iphone {
-        width: 92%;
-        margin-top: 30px;
+        width: 100%;
+        margin-top: 15px;
         position: relative;
-        top: 16px;
-
+        top: 8px;
+        right: 5px;
     }
 
     .ellipsePurpleBox-1 {
