@@ -200,7 +200,7 @@
     width: 100%;
 }
 
-.video {
+.video a{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
@@ -210,7 +210,9 @@
     display: flex;
     align-items: center;
 }
-
+.video span{
+    color: white;
+}
 .mainDownload {
     margin-left: 35px;
     margin-top: 40px;
