@@ -21,11 +21,7 @@ h1 {
     right: 20px;
 }
 
-.contact-sub1 {
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-right: 50px;
-}
+
 
 .heading {
     font-family: 'Satoshi';
@@ -79,9 +75,7 @@ h1 {
 }
 
 .contact-sub2 {
-    border-left: 1px solid grey;
-    padding-left: 90px;
-}
+    border-left: 1px solid grey;}
 .send-button{
     width: 330px;
     background: #7150FF;

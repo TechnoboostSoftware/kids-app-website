@@ -57,11 +57,7 @@
     right: 20px;
 }
 
-.contact-sub1 {
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-right: 50px;
-}
+
 
 .contact-sub1 .heading,
 .download .heading {
@@ -107,14 +103,10 @@
     color: grey;
 }
 
-.form-control {
-    width: 325px;
-}
+
 
 .contact-sub2 {
-    border-left: 1px solid grey;
-    padding-left: 90px;
-}
+    border-left: 1px solid grey;}
 
 .send-button {
     width: 330px;
@@ -444,7 +436,7 @@ ul.list-unstyled-download {
     display: flex;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
 
     /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
     .modal-body {
@@ -474,7 +466,7 @@ ul.list-unstyled-download {
     .popUpContact {
         display: flex;
         flex-direction: column-reverse;
-        margin: 20px 10px 10px;
+        
     }
 
     table {
@@ -523,9 +515,7 @@ ul.list-unstyled-download {
         color: grey;
     }
 
-    .form-control {
-        width: 270px;
-    }
+
 
     .contact-sub2 {
         border-left: none;
