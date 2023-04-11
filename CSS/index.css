@@ -17,7 +17,8 @@
 .navbar li a {
     color: black;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.5vw;
+    padding: 0px !important;
 }
 
 .listImages {
@@ -43,24 +44,14 @@
 
 /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 .headingContact {
-    display: flex;
+    column-gap: 7%;
 }
-
 .headingContact h1 {
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 68px;
-    text-align: justify;
+    font-size: 4vw;
     color: #7150FF;
-    margin-left: 120px;
-}
-
-.cancel {
-    position: absolute;
-    top: 25px;
-    right: 20px;
 }
 
 
@@ -183,17 +174,13 @@
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 5vw;
     display: flex;
     align-items: center;
     color: #FFC600;
     border-top: 0.5px solid #FFCD1F;
 
 }
-
-/* .phone {
-    width: 100%;
-} */
 
 .video a {
     font-family: 'Satoshi';
@@ -470,6 +457,12 @@
     padding: 20px 0px 20px 28px;
     color: white;
 }
+.backgroundImage {
+    background-image: url('../IMAGES/Ellipse 58 (1).svg');
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+}
 
 .last {
     margin-bottom: 0px;
@@ -479,26 +472,10 @@ ul.list-unstyled-download {
     list-style: none;
 }
 
-.backgroundImage {
-    background-image: url('../IMAGES/Ellipse 58 (1).svg');
-    background-size: cover;
-    border-radius: 15px;
-    display: flex;
-}
 
 /* #####################################################################TAB VIEW CSS */
-/* @media only screen and (min-width: 600px) {
-    .iphonesImages {
-        padding-left: 422px;
-    }
-}
- */
-
-/* ############################################################## Mobile view  css  */
-
-@media only screen and (max-width: 767px) {
-
-    /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+@media only screen and (max-width: 991px) {
+    
     .modal-body {
         background: rgb(255 249 250 / 43%);
     }
@@ -604,7 +581,12 @@ ul.list-unstyled-download {
         margin-left: -2px !important;
     }
 
-    /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
+}
+
+/* ############################################################## Mobile view  css  */
+
+@media only screen and (max-width: 767px) {
+
 
     .navbar-toggler {
         background: #7050ff88;
