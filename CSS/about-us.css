@@ -36,29 +36,24 @@
     color: white;
 }
 
+.navbar-toggler {
+    background: #7050ff88;
+    border-radius: 15px;
+    padding: 6px 8px;
+}
+
 /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 .headingContact {
-    display: flex;
+    column-gap: 7%;
 }
 
 .headingContact h1 {
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 68px;
-    text-align: justify;
+    font-size: 3vw;
     color: #7150FF;
-    margin-left: 120px;
 }
-
-.cancel {
-    position: absolute;
-    top: 25px;
-    right: 20px;
-}
-
-
 
 .contact-sub1 .heading,
 .download .heading {
@@ -87,7 +82,7 @@
     font-weight: 500;
     font-size: 20px;
     padding: 10px;
-    text-align: center;
+    text-align: initial;
 }
 
 #login label {
@@ -104,18 +99,22 @@
     color: grey;
 }
 
-
+.popUpContact {
+    padding: 20px 40px;
+}
 
 .contact-sub2 {
-    border-left: 1px solid grey;}
+    border-left: 1px solid grey;
+}
 
 .send-button {
-    width: 330px;
+    width: 100%;
     background: #7150FF;
     color: white;
     border-radius: 10px;
     border: 1px solid black;
     height: 10vh;
+    margin-top: 25px;
     cursor: pointer;
 }
 
@@ -213,11 +212,9 @@
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 34px;
     color: #7150FF;
     border: 1px solid rgb(231, 229, 229);
     border-radius: 20px;
-    width: 370px;
     box-shadow: 0px 0px 10px 2px rgb(219, 219, 219);
 }
 
@@ -337,7 +334,7 @@ ul.list-unstyled-download {
 
 /* #####################################################################TAB VIEW CSS */
 @media only screen and (max-width: 991px) {
-    
+
     .modal-body {
         background: rgb(255 249 250 / 43%);
     }
@@ -351,10 +348,10 @@ ul.list-unstyled-download {
     }
 
     .headingContact h1 {
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 5vw;
         margin-left: 0px;
     }
+
 
     .cancel {
         position: absolute;
@@ -365,6 +362,7 @@ ul.list-unstyled-download {
     .popUpContact {
         display: flex;
         flex-direction: column-reverse;
+        padding: 0px;
     }
 
     table {
@@ -372,13 +370,11 @@ ul.list-unstyled-download {
     }
 
     #login {
-        padding: 10px 30px;
+        padding: 10px 20px 0px 30px;
     }
 
     .contact-sub1 {
-        padding-left: 30px;
-        padding-top: 0px;
-        padding-right: 0px;
+        padding: 10px 27px;
     }
 
     .contact-sub1 .heading,
@@ -419,7 +415,7 @@ ul.list-unstyled-download {
     }
 
     .send-button {
-        width: 275px;
+        width: 100%;
         background: #7150FF;
         color: white;
         border-radius: 10px;
@@ -435,129 +431,31 @@ ul.list-unstyled-download {
     }
 
     .popUpDownload {
-        display: flex;
-        margin: 10px
+        column-gap: 5px;
     }
 
     .popUpDownload img {
-        margin-left: -2px !important;
+        margin: 0px !important;
+        width: 90%;
     }
 
+    .core-margin {
+        margin-left: 0px;
+    }
+
+    .second {
+        font-size: 3vw;
+    }
 }
+
+/* ############################################################## Mobile view  css  */
 
 @media only screen and (max-width: 767px) {
 
-    /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
-    .modal-body {
-        background: rgb(255 249 250 / 43%);
+    .navbar li a {
+        font-size: 4vw;
     }
 
-    .headingContact {
-        display: flex;
-    }
-
-    .headingContactFirst {
-        margin: 10px 60px 0px 10px;
-    }
-
-    .headingContact h1 {
-        font-size: 35px;
-        line-height: 50px;
-        margin-left: 0px;
-    }
-
-    .cancel {
-        position: absolute;
-        top: 25px;
-        right: 20px;
-    }
-
-    .popUpContact {
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-
-    table {
-        border-collapse: inherit;
-    }
-
-    #login {
-        padding: 10px 30px;
-    }
-
-    .contact-sub1 {
-        padding-left: 30px;
-        padding-top: 0px;
-        padding-right: 0px;
-    }
-
-    .contact-sub1 .heading,
-    .download .heading {
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 34px;
-
-    }
-
-    .details {
-        font-size: 17px;
-        line-height: 34px;
-        text-align: left;
-        padding-left: 15px;
-    }
-
-    .details-ans {
-        font-size: 15px;
-        padding-left: 10px;
-        padding-top: 5px;
-        padding-bottom: 0px;
-    }
-
-    #login label {
-        font-size: 20px;
-        line-height: 30px;
-        padding-bottom: 10px;
-    }
-
-    .optional {
-        color: grey;
-    }
-
-
-
-    .contact-sub2 {
-        border-left: none;
-        padding-left: 0px;
-    }
-
-    .send-button {
-        width: 275px;
-        background: #7150FF;
-        color: white;
-        border-radius: 10px;
-        border: 1px solid black;
-        height: 7vh;
-        cursor: pointer;
-        margin-bottom: 15px;
-    }
-
-    .send-button:hover {
-        background: #4529c2;
-        color: white;
-    }
-
-    .popUpDownload {
-        display: flex;
-        margin: 10px
-    }
-
-    .popUpDownload img {
-        width: 95%;
-        margin-left: -2px !important;
-    }
-
-    /*  bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
     .navbar-toggler {
         background: #7050ff88;
         border-radius: 15px;
@@ -570,6 +468,7 @@ ul.list-unstyled-download {
 
     .navbar-nav li {
         display: flex;
+        padding: 10px 0px;
     }
 
     li.nav-item {
@@ -659,14 +558,17 @@ ul.list-unstyled-download {
     .core-margin {
         margin-left: 0px;
     }
-    .team{
+
+    .team {
         padding-bottom: 0px !important;
         margin-bottom: 0px !important;
     }
+
     .teamFlex {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-bottom: 30px;
     }
 
     .teamMembers-1,

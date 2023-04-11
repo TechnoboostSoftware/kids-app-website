@@ -46,15 +46,14 @@
 .headingContact {
     column-gap: 7%;
 }
+
 .headingContact h1 {
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #7150FF;
 }
-
-
 
 .contact-sub1 .heading,
 .download .heading {
@@ -83,7 +82,7 @@
     font-weight: 500;
     font-size: 20px;
     padding: 10px;
-    text-align: center;
+    text-align: initial;
 }
 
 #login label {
@@ -103,16 +102,19 @@
 .popUpContact {
     padding: 20px 40px;
 }
+
 .contact-sub2 {
-    border-left: 1px solid grey;}
+    border-left: 1px solid grey;
+}
 
 .send-button {
-    width: 330px;
+    width: 100%;
     background: #7150FF;
     color: white;
     border-radius: 10px;
     border: 1px solid black;
     height: 10vh;
+    margin-top: 25px;
     cursor: pointer;
 }
 
@@ -457,6 +459,7 @@
     padding: 20px 0px 20px 28px;
     color: white;
 }
+
 .backgroundImage {
     background-image: url('../IMAGES/Ellipse 58 (1).svg');
     background-size: cover;
@@ -475,7 +478,7 @@ ul.list-unstyled-download {
 
 /* #####################################################################TAB VIEW CSS */
 @media only screen and (max-width: 991px) {
-    
+
     .modal-body {
         background: rgb(255 249 250 / 43%);
     }
@@ -489,10 +492,10 @@ ul.list-unstyled-download {
     }
 
     .headingContact h1 {
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 5vw;
         margin-left: 0px;
     }
+
 
     .cancel {
         position: absolute;
@@ -503,6 +506,7 @@ ul.list-unstyled-download {
     .popUpContact {
         display: flex;
         flex-direction: column-reverse;
+        padding: 0px;
     }
 
     table {
@@ -510,13 +514,11 @@ ul.list-unstyled-download {
     }
 
     #login {
-        padding: 10px 30px;
+        padding: 10px 20px 0px 30px;
     }
 
     .contact-sub1 {
-        padding-left: 30px;
-        padding-top: 0px;
-        padding-right: 0px;
+        padding: 10px 27px;
     }
 
     .contact-sub1 .heading,
@@ -557,7 +559,7 @@ ul.list-unstyled-download {
     }
 
     .send-button {
-        width: 275px;
+        width: 100%;
         background: #7150FF;
         color: white;
         border-radius: 10px;
@@ -573,12 +575,12 @@ ul.list-unstyled-download {
     }
 
     .popUpDownload {
-        display: flex;
-        margin: 10px
+        column-gap: 5px;
     }
 
     .popUpDownload img {
-        margin-left: -2px !important;
+        margin: 0px !important;
+        width: 90%;
     }
 
 }
@@ -587,6 +589,9 @@ ul.list-unstyled-download {
 
 @media only screen and (max-width: 767px) {
 
+    .navbar li a {
+        font-size: 4vw;
+    }
 
     .navbar-toggler {
         background: #7050ff88;
@@ -596,6 +601,7 @@ ul.list-unstyled-download {
 
     .navbar-nav li {
         display: flex;
+        padding: 10px 0px;
     }
 
     li.nav-item {
