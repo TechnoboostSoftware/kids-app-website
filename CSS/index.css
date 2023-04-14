@@ -41,6 +41,20 @@
     border-radius: 15px;
     padding: 6px 8px;
 }
+.signIn{
+    text-decoration: none;
+    color: white
+}
+.signIn:hover{
+    color: white;
+}
+.signIn{
+    text-decoration: none;
+    color: white
+}
+.signIn:hover{
+    color: white;
+}
 
 /* vgcvnhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 .headingContact {
