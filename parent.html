@@ -297,8 +297,8 @@
                     <img src="IMAGES/Ellipse.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes">
                     <img src="IMAGES/Ellipse-1.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes1">
                     <div class="social-media-icon ms-5" data-aos="fade-up">
-                        <a href="#"><img src="IMAGES/tweeter.svg" class="social-media me-3"></a>
-                        <a href="#"><img src="IMAGES/facebook.svg" class="social-media me-3"></a>
+                        <a href="https://twitter.com/ParentMaestro"><img src="IMAGES/tweeter.svg" class="social-media me-3"></a>
+                        <a href="https://www.facebook.com/people/ParentMaestro/100091675190942/"><img src="IMAGES/facebook.svg" class="social-media me-3"></a>
                         <a href="#"><img src="IMAGES/insta.svg" class="social-media me-3"></a>
                         <a href="#"><img src="IMAGES/github.svg" class="social-media me-3"></a>
                     </div>
@@ -337,7 +337,38 @@
                 </div>
             </div>
         </div>
-    </body>
+    <script>
+        AOS.init();
+
+        function sendMessage(){
+            let fullName = $("#InputName").val();
+            let InputEmail = $("#InputEmail").val();
+            let InputNumber = $("#InputNumber").val();
+            let Inputmessage = $("#Inputmessage").val();
+            let jsonData = {
+                "fullName": fullName,
+                "emailId": InputEmail,
+                "mobileNo": InputNumber,
+                "feedBack": Inputmessage
+                }
+                
+            $.ajax({
+            type: 'POST',
+            url: 'https://admin.parentmaestro.com/api/enquiry',
+            data: JSON.stringify(jsonData),
+            success: function (res) {
+              $("#extraLargeModal").modal('toggle')
+             },
+
+            error: function (err) {
+           
+
+            },
+            contentType: "application/json",
+            dataType: 'json'
+        });
+        }
+    </script>
     <script>
         AOS.init();
     </script>
