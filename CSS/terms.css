@@ -226,6 +226,45 @@
 .social-media {
     width: 30px;
 }
+.social-media-youtube {
+    display: inline;
+}
+.social-media-youtube-active{
+    display: none;
+}
+.social-media-youtube:hover .social-media-youtube-active{
+    display: inline;
+}
+
+.social-media-linkedin {
+    display: inline;
+}
+.social-media-linkedin-active{
+    display: none;
+}
+.social-media-linkedin:hover .social-media-linkedin-active{
+    display: inline;
+}
+.social-media-twitter {
+    display: inline;
+}
+.social-media-twitter-active{
+    display: none;
+}
+.social-media-twitter:hover .social-media-twitter-active{
+    display: inline;
+}
+
+.social-media-facebook {
+    display: inline;
+}
+.social-media-facebook-active{
+    display: none;
+}
+.social-media-facebook:hover .social-media-facebook-active{
+    display: inline;
+}
+
 
 .footer h5 {
     color: white;

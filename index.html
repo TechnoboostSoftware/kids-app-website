@@ -294,13 +294,33 @@
                 <div class="col-md-4 col-sm-12 footer-height">
                     <img src="IMAGES/Ellipse.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes">
                     <img src="IMAGES/Ellipse-1.svg" data-aos="fade-up" data-aos-duration="1000" class="ellipes1">
-                    <div class="social-media-icon ms-5" data-aos="fade-up">
-                        <a href="https://twitter.com/ParentMaestro"><img src="IMAGES/tweeter.svg"
-                                class="social-media me-3"></a>
-                        <a href="https://www.facebook.com/people/ParentMaestro/100091675190942/"><img
-                                src="IMAGES/facebook.svg" class="social-media me-3"></a>
-                        <a href="#"><img src="IMAGES/insta.svg" class="social-media me-3"></a>
-                        <a href="#"><img src="IMAGES/github.svg" class="social-media me-3"></a>
+                    <div class="social-media-icon ms-5 d-flex" data-aos="fade-up">
+                        <div class="social-media-twitter position-relative">
+                            <a href="https://twitter.com/ParentMaestro"><img src="IMAGES/twitter.svg"
+                                    class="social-media me-3"></a>
+                            <a href="https://twitter.com/ParentMaestro"><img src="IMAGES/twitter-active.svg"
+                                    class="social-media social-media-twitter-active position-absolute top-0 start-0 me-3"></a>
+                        </div>
+                        <div class="social-media-facebook position-relative">
+                            <a href="https://www.facebook.com/people/ParentMaestro/100091675190942/"><img
+                                    src="IMAGES/facebook-active.svg" class="social-media me-3"></a>
+                            <a href="https://www.facebook.com/people/ParentMaestro/100091675190942/"><img
+                                    src="IMAGES/facebook.svg"
+                                    class="social-media social-media-facebook-active position-absolute top-0 start-0 me-3"></a>
+                        </div>
+                        <div class="social-media-youtube position-relative">
+                            <a href="https://www.youtube.com/@ParentMaestro"><img src="IMAGES/youtube.svg"
+                                    class="social-media me-3"></a>
+                            <a href="https://www.youtube.com/@ParentMaestro"><img src="IMAGES/youtube-active.svg"
+                                    class="social-media social-media-youtube-active position-absolute top-0 start-0 me-3"></a>
+                        </div>
+                        <div class="social-media-linkedin position-relative">
+                            <a href="https://www.linkedin.com/company/parentmaestro/?viewAsMember=true"><img
+                                    src="IMAGES/linkedin.svg" class="social-media me-3"></a>
+                            <a href="https://www.linkedin.com/company/parentmaestro/?viewAsMember=true"><img
+                                    src="IMAGES/linkedin-active.svg"
+                                    class="social-media social-media-linkedin-active position-absolute top-0 start-0 me-3"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-12 footer-list footer-height list-company-help footer-left">
@@ -370,38 +390,16 @@
                 });
             }
         </script>
-        <script>
-            AOS.init();
-
-            function sendMessage() {
-                let fullName = $("#InputName").val();
-                let InputEmail = $("#InputEmail").val();
-                let InputNumber = $("#InputNumber").val();
-                let Inputmessage = $("#Inputmessage").val();
-                let jsonData = {
-                    "fullName": fullName,
-                    "emailId": InputEmail,
-                    "mobileNo": InputNumber,
-                    "feedBack": Inputmessage
-                }
-
-                $.ajax({
-                    type: 'POST',
-                    url: 'https://admin.parentmaestro.com/api/enquiry',
-                    data: JSON.stringify(jsonData),
-                    success: function (res) {
-                        $("#extraLargeModal").modal('toggle')
-                    },
-
-                    error: function (err) {
-
-
-                    },
-                    contentType: "application/json",
-                    dataType: 'json'
-                });
+        <!-- <script>
+            function youtubeHover() {
+                document.getElementsByClassName('social-media-youtube').style.display = 'none';
+                document.getElementsByClassName('social-media-youtube-active').style.display = 'inline';
             }
-        </script>
+            function youtubeNotHover() {
+                document.getElementsByClassName('social-media-youtube').style.display = 'none';
+                document.getElementsByClassName('social-media-youtube-active').style.display = 'block';
+            }
+        </script> -->
         <!-- <script src="JS/index.js"></script> -->
     </body>
 
