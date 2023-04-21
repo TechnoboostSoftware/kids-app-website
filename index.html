@@ -65,7 +65,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="headingContact d-flex justify-content-end mb-5 align-items-center">
+                        <div class="headingContact d-flex justify-content-end align-items-center">
                             <div class="headingContactFirst">
                                 <h1>We would love to hear from you 😊</h1>
                             </div>
@@ -92,37 +92,40 @@
                                 <div class="download">
                                     <h2 class="heading">Download</h2>
                                     <hr>
-                                    <div class="popUpDownload d-flex text-center justify-content-evenly">
-                                        <a href="#"><img src="IMAGES/googleplay.svg" class="googleplay2 mb-2 ms-5"></a>
-                                        <a href="#"><img src="IMAGES/apple.svg" class="apple2 mb-2 ms-3"></a>
+                                    <div class="popUpDownload d-flex text-center justify-content-start">
+                                        <a href="#" class="me-3"><img src="IMAGES/googleplay.svg"
+                                                class="googleplay2"></a>
+                                        <a href="#"><img src="IMAGES/apple.svg" class="apple2"></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12 contact-sub2">
-                                <!-- <form id="login"> -->
+                                <div id="login">
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputName">Full
+                                        Name</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="text"
+                                        class="form-control mb-3 mt-1" id="InputName" placeholder="Enter full name">
 
-                                <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputName">Full
-                                    Name</label>
-                                <input data-aos="fade-left" data-aos-duration="1000" type="text"
-                                    class="form-control mb-3 mt-1" id="InputName" placeholder="Enter full name">
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputEmail">Email
+                                        Address</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="email"
+                                        class="form-control mb-3 mt-1" id="InputEmail"
+                                        placeholder="Enter email address">
 
-                                <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputEmail">Email
-                                    Address</label>
-                                <input data-aos="fade-left" data-aos-duration="1000" type="email"
-                                    class="form-control mb-3 mt-1" id="InputEmail" placeholder="Enter email address">
+                                    <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputphone">Mobile
+                                        number</label>
+                                    <input data-aos="fade-left" data-aos-duration="1000" type="number"
+                                        class="form-control mb-3 mt-1" id="InputNumber"
+                                        placeholder="Enter mobile number">
 
-                                <label data-aos="fade-right" data-aos-duration="1000" for="exampleInputphone">Mobile
-                                    number</label> <span class="optional"> Optional</span>
-                                <input data-aos="fade-left" data-aos-duration="1000" type="number"
-                                    class="form-control mb-3 mt-1" id="InputNumber" placeholder="Enter mobile number">
+                                    <label data-aos="fade-right" data-aos-duration="1000">Message</label>
+                                    <textarea data-aos="fade-left" data-aos-duration="1000"
+                                        class="form-control my-1 " id="Inputmessage"
+                                        placeholder="Feedbacks are welcome"></textarea>
 
-                                <label data-aos="fade-right" data-aos-duration="1000">Message</label>
-                                <input data-aos="fade-left" data-aos-duration="1000" type="text"
-                                    class="form-control my-1 py-4" id="Inputmessage"
-                                    placeholder="Feedbacks are welcome">
 
-                                <button class="send-button" onclick="sendMessage()">Send Message</button>
-                                <!-- </form> -->
+                                    <button class="send-button" onclick="sendMessage()">Send Message</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -390,17 +393,6 @@
                 });
             }
         </script>
-        <!-- <script>
-            function youtubeHover() {
-                document.getElementsByClassName('social-media-youtube').style.display = 'none';
-                document.getElementsByClassName('social-media-youtube-active').style.display = 'inline';
-            }
-            function youtubeNotHover() {
-                document.getElementsByClassName('social-media-youtube').style.display = 'none';
-                document.getElementsByClassName('social-media-youtube-active').style.display = 'block';
-            }
-        </script> -->
-        <!-- <script src="JS/index.js"></script> -->
     </body>
 
 </html>
